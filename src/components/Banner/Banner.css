@@ -1,0 +1,50 @@
+.banner-component {
+  height: 75%;
+  width: 100%;
+  background-color: rgb(0, 150, 195);
+}
+.each-slide-in-banner {
+  display: block !important;
+  outline: none;
+}
+.each-slide-in-banner img {
+  opacity: 0.5;
+  width: 100%;
+}
+.each-slide-in-banner div {
+  z-index: 20;
+  position: absolute;
+  font-size: 3.8vw;
+  top: 44%;
+  margin-left: 3.4%;
+  color: rgb(255, 255, 255);
+}
+
+.arrow {
+  border-radius: 100px;
+  width: 34px;
+  height: 34px;
+  color: #539aac;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  /* box-shadow: 0px 0px 1px 2px rgba(107, 107, 107, 0.226); */
+}
+
+.left-direction {
+  margin-top: 10% !important;
+  margin-left: -3% !important;
+}
+.right-direction {
+  margin-top: 10% !important;
+  margin-left: 7% !important;
+}
+.next {
+  right: 2%;
+  top: 42%;
+}
+.prev {
+  left: 2%;
+  top: 42%;
+}

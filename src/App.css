@@ -1,0 +1,11 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.App,
+.App h2,
+.App h4,
+.App button,
+.App ::placeholder {
+  font-family: "Cairo", sans-serif !important;
+  text-align: center;
+}
